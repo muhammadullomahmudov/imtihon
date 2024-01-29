@@ -33,12 +33,13 @@ transform: translate(2);
     display: flex;
 }
 .boxcha__img {
+    margin-top: 15px;
 
 }
 .boxcha__text {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     margin-left: 12px;
-    margin-top:5px;
+    margin-top:20px;
     color: var(--Neutral-07, #202025);
 
 /* Body 2 (Bold)/L */
@@ -51,7 +52,7 @@ letter-spacing: -0.4px;
 }
 .boxcha__img2 {
     margin-left: 50px;
-    margin-top: 10px;
+    margin-top: 23px;
 }
 .mazgibox {
     display: flex;
@@ -159,5 +160,10 @@ border: 2px solid var(--Neutral-06, #555);
 .mobilenone {
     display: none;
     content: none;
+}
+
+.shop__list-inner__img {
+    width: 288px;
+    height: 298px;
 }
 }
