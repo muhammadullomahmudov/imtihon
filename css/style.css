@@ -940,4 +940,20 @@ body {
     width: 288px;
     height: 298px;
   }
+}
+@media only screen and (max-width: 400px) {
+  .shop__list {
+    display: flex;
+    flex-direction: column;
+  }
+  .mazgiright__title {
+    font-size: 20px;
+  }
+  .linkbox {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
 }/*# sourceMappingURL=style.css.map */
